@@ -1,4 +1,4 @@
-local Patcher = require("Patcher")
+local Patcher = require("https://raw.githubusercontent.com/IEnemyFiles/IL2CPP-Patcher/main/Patcher.lua")
 
 local il2cpp    = Patcher.getBaseAddr("libil2cpp.so")
 local libunity  = Patcher.getBaseAddr("libunity.so")
